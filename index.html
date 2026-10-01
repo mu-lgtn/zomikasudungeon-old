@@ -10861,11 +10861,13 @@ document.getElementById('soloBtn').addEventListener('click', () => startGame('so
 const RUSH_WEAPON_DESC = {
   sword: '広い範囲を素早く斬る近接武器',
   club: '細く長いリーチ・高威力・大きく吹き飛ばす',
-  shotgun: '近距離で散弾を撃つ（2発装填）',
-  rocket: '爆発する高威力の弾（1発装填）',
-  machinegun: '狙っている間 撃ち続ける（32発装填）',
+  shotgun: '近距離で散弾を撃つ（4発装填）',
+  rocket: '爆発する高威力の弾（3発装填）',
+  machinegun: '狙っている間 撃ち続ける（40発装填）',
   magicbomb: '押し続けて溜め、離すと大爆発（1発装填）',
   cross: '敵を止める魔法陣を出す（ダメージ無し・1発装填）',
+  sniper: '狙った一点に超高威力（1発装填）',
+  trap: '踏むと爆発、スタンと脆弱を与える（6発装填）',
   katana: '狙った方向へ瞬間移動しながら軌跡上の敵を斬る',
 };
 const RUSH_WEAPONS = WEAPON_TYPES.filter(w => !w.isFreeze && w.type !== 'summon');
